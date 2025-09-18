@@ -37,6 +37,21 @@ def szamologep():
         eredmeny = egyik_szam / masik_szam
     print(f"az eredmény: {egyik_szam} {muvelet} {masik_szam} = {eredmeny}")
 
+def veletlenszam():
+    import random
+    szam = random.randint(a=0, B=max)
+    return szam
+
+
+def egesz_szam_bekerese():
+    while True:
+        egeszszam = input("Kérek egy egész számot: ")
+        try:
+            egeszszam = int(egeszszam)
+            break
+        except ValueError:
+            print("Nem egész számot adott meg!")
+    return egeszszam
 # A program indítása
 if __name__=="__main__":
     szamologep()
