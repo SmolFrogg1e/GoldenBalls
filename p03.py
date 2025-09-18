@@ -39,5 +39,4 @@ def szamologep():
 
 # A program indítása
 if __name__=="__main__":
-szamologep()
-szamologep ()
+    szamologep()
