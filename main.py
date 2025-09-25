@@ -1,3 +1,15 @@
-import p04
+'''import math
+import random
 
-print(p04.szamolas(1,2,4,9))
+print(math.sqrt(9))
+for _ in range(50):
+   print(random.randint(1,6))
+'''
+try:
+    eredmeny = 10 / 0
+except ZeroDivisionError:
+    print("hiba: nullával való osztás")
+except NameError:
+    print("Hiba: névhiba")
+else:
+   print(eredmeny)
