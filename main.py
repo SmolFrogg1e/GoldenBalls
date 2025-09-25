@@ -1,23 +1,3 @@
-import p03
-szam = 10
-while szam < 2:
-   szam -= 1
-   if szam == 4:
-      continue
-   if szam == 3:
-      break
-   print(szam)
-else:
-   print("vége a ciklusnak")
+import p04
 
-while True:
-   szam += 1
-   print(szam)
-   if szam == 30:
-      break
-   
-
-
-
-#p03.szamologep()
-#p03.szam_bekerese(5)
+print(p04.szamolas(1,2,4,9))
